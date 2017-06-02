@@ -27,3 +27,35 @@ body, html {
   display: table;
   clear: both;
 }
+
+/*CARD #### 1111111*/
+
+.dnd-1 {
+  background-image: url("../img/dnd1.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.card-title {
+  position: absolute;
+  bottom: 30%;
+  left: 1%;
+  text-shadow: 2px 2px 4px black;
+
+}
+
+body > div:nth-child(1) > div.section > div > div.col.m12.xl6 > div > div > span{
+  font-size: 1.25em;
+  margin-left: .5em;
+}
+
+
+body > div:nth-child(1) > div.section > div > div.col.m12.xl6 > div > div > p {
+  position: absolute;
+  bottom: 5%;
+  left: 1%;
+  text-shadow: 2px 2px 4px black;
+  font-size: 1em;
+  margin-left: .5em;
+}
