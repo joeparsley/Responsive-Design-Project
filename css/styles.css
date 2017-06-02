@@ -1,0 +1,45 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+
+/* End for testing */
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  /*height: 100vh;
+  width: 100vw;*/
+  background-color: lightgray;
+}
+
+.col-xs-6 {
+  background-color: green;
+  /*height: 100%;
+  width: 100%;*/
+}
+.col-xs-2 {
+  background-color: blue;
+  /*height: 100%;
+  width: 100%;
+}*/
