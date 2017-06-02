@@ -28,6 +28,12 @@ body, html {
   clear: both;
 }
 
+.card-content{
+  overflow: visible;
+  padding: 0;
+  margin: 0
+}
+
 /*CARD #### 1111111*/
 
 .dnd-1 {
@@ -58,4 +64,20 @@ body > div:nth-child(1) > div.section > div > div.col.m12.xl6 > div > div > p {
   text-shadow: 2px 2px 4px black;
   font-size: 1em;
   margin-left: .5em;
+}
+
+
+  /*CARD ##### 2222222*/
+
+.card-content:nth-of-type(2) > p:nth-of-type(1) {
+  font-size: .9em;
+}
+
+.card-content i {
+  font-size: 1.5em;
+}
+
+.card-content:nth-of-type(2) > p:nth-of-type(2) {
+  font-size: .75em;
+  margin-top: .5em
 }
