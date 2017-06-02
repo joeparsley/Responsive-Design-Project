@@ -26,20 +26,3 @@ body, html {
   display: table;
   clear: both;
 }
-
-.container {
-  /*height: 100vh;
-  width: 100vw;*/
-  background-color: lightgray;
-}
-
-.col-xs-6 {
-  background-color: green;
-  /*height: 100%;
-  width: 100%;*/
-}
-.col-xs-2 {
-  background-color: blue;
-  /*height: 100%;
-  width: 100%;
-}*/
