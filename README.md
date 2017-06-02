@@ -15,7 +15,7 @@
 
 ## Screenshot of Project
 
-![screenshot of project](https://github.com/avocadobravado/REPO/blob/master/NAME.png?raw=true)
+<img src="img/screenshot.png" alt="dnd2">
 
 ## How to Use
 
