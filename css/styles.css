@@ -34,6 +34,11 @@ body, html {
   margin: 0
 }
 
+.card-image {
+  height: 45%;
+}
+
+
 /*CARD #### 1111111*/
 
 .dnd-1 {
@@ -71,10 +76,12 @@ body > div:nth-child(1) > div.section > div > div.col.m12.xl6 > div > div > p {
 
 .card-content:nth-of-type(2) > p:nth-of-type(1) {
   font-size: .9em;
+  margin-top: 1em;
 }
 
 .card-content i {
   font-size: 1.5em;
+  margin-top: .25em;
 }
 
 .card-content:nth-of-type(2) > p:nth-of-type(2) {
