@@ -27,10 +27,10 @@ body, html {
   min-height: 300px;
 }
 
-nav {
-  opacity: .7;
+nav{
   min-width: 350px;
 }
+
 
 .side-nav li {
   margin-top: 2em;
@@ -41,6 +41,12 @@ nav {
   font-size: 2.5em;
   padding-bottom: 1.5em;
   text-align: center;
+}
+
+.side-nav {
+  background-image: url('../img/sid-nav.jpg');
+  background-size: cover;
+  text-shadow: 4px 4px 6px black;
 }
 
 /*CARD CONTENT*/
