@@ -49,6 +49,10 @@ nav{
   text-shadow: 4px 4px 6px black;
 }
 
+#logo-container {
+  margin-left: 2em;
+}
+
 /*CARD CONTENT*/
 .card-content{
   padding: 0;
@@ -127,4 +131,10 @@ body > div:nth-child(2) > div > div > div.col.s12.m12.xl6 > div > div > p {
   text-shadow: 2px 2px 4px black;
   font-size: 1em;
   margin-left: .5em;
+}
+ /*FOOTER*/
+
+.page-footer {
+  background-color: #443939;
+  text-shadow: 1px 1px 2px gray;
 }
