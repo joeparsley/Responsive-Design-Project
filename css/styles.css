@@ -53,6 +53,10 @@ nav{
   margin-left: 2em;
 }
 
+#nav-main-container > div > div > nav > div > ul.right.hide-on-med-and-down {
+  margin-right: 2em;
+}
+
 /*CARD CONTENT*/
 .card-content{
   padding: 0;
@@ -137,4 +141,10 @@ body > div:nth-child(2) > div > div > div.col.s12.m12.xl6 > div > div > p {
 .page-footer {
   background-color: #443939;
   text-shadow: 1px 1px 2px gray;
+}
+
+@media only screen and (max-width : 992px) {
+  #logo-container {
+    margin-left: 0;
+  }
 }
