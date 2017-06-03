@@ -9,7 +9,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  background-color: gray;
+  background-image: url("../img/background3.jpg");
 
 }
 
@@ -21,6 +21,11 @@ body, html {
 
 .container-fluid{
   width: 100%;
+}
+
+h3 {
+  text-shadow: 4px 4px 6px #646057;
+  font-size: 4em;
 }
 /*NAV BAR*/
 #nav-main-container {
