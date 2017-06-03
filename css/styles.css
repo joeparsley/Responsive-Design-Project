@@ -18,10 +18,14 @@ body, html {
   display: table;
   clear: both;
 }
+
+.container-fluid{
+  width: 100%;
+}
 /*NAV BAR*/
 #nav-main-container {
   background-image: url(../img/header.jpg);
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 300px;
